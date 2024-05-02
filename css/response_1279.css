@@ -1,0 +1,105 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section:before,
+    .first_section .bg
+    {
+        left: 50%;
+
+        width: 1680px;
+
+        transform: translateX(-50%);
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features
+    {
+        margin-bottom: 88px;
+    }
+
+
+    .features .cont
+    {
+        padding-bottom: 620px;
+    }
+
+
+    .features .data
+    {
+        width: 100%;
+    }
+
+
+    .features .link
+    {
+        margin-top: 40px;
+    }
+
+
+    .features .apps
+    {
+        right: auto;
+        bottom: 0;
+        left: 50%;
+
+        margin-right: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+    .features .bg
+    {
+        top: auto;
+        bottom: 16px;
+        left: 50%;
+
+        width: 885px;
+        height: 640px;
+        margin-right: 0;
+
+        transform: translateX(-50%);
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .text
+    {
+        margin-bottom: 32px;
+        padding-top: 40px;
+    }
+
+
+
+    footer .responsibility
+    {
+        justify-content: center;
+    }
+}

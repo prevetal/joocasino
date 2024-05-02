@@ -1,0 +1,68 @@
+@media (max-width: 479px)
+{
+    /*------------
+        Header
+    ------------*/
+    header .account a
+    {
+        font-size: 12px;
+
+        height: 32px;
+        padding: 6px 10px;
+    }
+
+
+
+    header.fixed .logo img
+    {
+        height: 28px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 140px;
+    }
+
+
+    .first_section .bg
+    {
+        width: 480px;
+        min-width: 100%;
+    }
+
+
+
+    /*--------------
+        Features
+    --------------*/
+    .features .cont
+    {
+        padding-bottom: 468px;
+    }
+
+
+    .features .item .name
+    {
+        word-break: break-all;
+    }
+
+
+    .features .apps a
+    {
+        padding: 8px 20px;
+    }
+
+
+    .features .bg
+    {
+        bottom: 40px;
+
+        width: 567px;
+        height: 410px;
+    }
+}

@@ -1,0 +1,72 @@
+@media print,
+(max-width: 1023px)
+{
+    /*------------
+        Header
+    ------------*/
+    header .account > * + *
+    {
+        margin-left: 8px;
+    }
+
+
+    header .account a
+    {
+        height: 36px;
+        padding: 8px 12px;
+    }
+
+
+
+    header.fixed .cont
+    {
+        min-height: 68px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-bottom: 20px;
+    }
+
+
+    .first_section .link
+    {
+        padding: 16px 24px;
+    }
+
+
+
+    .first_section:before,
+    .first_section .bg
+    {
+        width: 960px;
+    }
+
+
+
+    .first_section .payments .row
+    {
+        margin-left: -24px;
+    }
+
+
+    .first_section .payments .row > *
+    {
+        margin-left: 24px;
+    }
+
+
+
+    /*------------------
+        All payments
+    ------------------*/
+    .all_payments
+    {
+        margin-bottom: 32px;
+    }
+}
